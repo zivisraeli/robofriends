@@ -40,7 +40,7 @@ class App extends React.Component {
 
     return (
       <div>
-      <h1>Robot Friends</h1>
+      <h1>Very Robot Friends</h1>
       <SearchBox searchChangeHandler={this.searchChangeHandler} />
         <Scroll>
           <CardList robots={filteredRobots}/>
